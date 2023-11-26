@@ -48,15 +48,15 @@ document.addEventListener('DOMContentLoaded', function () {
   opcao_vazia.selected = true;
 
   const opcao_masculino_select = document.createElement('option');
-  opcao_masculino_select.value = "ElencoMasculino/atletasmasculinos.html";
+  opcao_masculino_select.value = "../ElencoMasculino/atletasmasculinos.html";
   opcao_masculino_select.innerHTML = "Masculino";
 
   const opcao_feminino_select = document.createElement('option');
-  opcao_feminino_select.value = "ElencoFeminino/atletasfemininos.html";
+  opcao_feminino_select.value = "../ElencoFeminino/atletasfemininos.html";
   opcao_feminino_select.innerHTML = "Feminino";
 
   const opcao_todos_select = document.createElement('option');
-  opcao_todos_select.value = "URL_da_nova_pagina_Todos";
+  opcao_todos_select.value = "../ElencoGeral/geral.html";
   opcao_todos_select.innerHTML = "Todos";
 
   body.appendChild(head);
