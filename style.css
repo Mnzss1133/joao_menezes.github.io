@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body{
+    
+    display: flex;
+    height: 100vh;
+    
+}
+#senhabotao{
+    height: 20px;
+    width:50%
+}
+
+#minhaDiv{
+    
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex; 
+    margin: auto; 
+    flex-direction: row; 
+    
+    width: 70vw; 
+    min-width: 800px;
+}
+#titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+}
+
+P{
+  font-size: 12px;;
+}
+
+#caixinha{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin:auto;
+    
+   
+}
+
+
+#escudoimagem{
+    
+    align-items: center;
+    margin: left;
+    
+}
+
+img{
+    max-width: 290px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+body{
+    
+    display: flex;
+    height: 100vh;
+    
+}
+
+#minhaDiv{
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex; 
+    margin: auto; 
+    flex-direction: column; 
+    
+    width: 70vw; 
+    min-width: 800px;
+}
+#titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;    
+    display: flex;
+    margin: auto;
+    
+    padding: 12px;
+    flex-direction: column;
+    
+}
+
+#caixinha{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding-top: 40px;
+    margin: auto;
+   
+}
+
+
+#escudoimagem{
+    margin: auto;
+    
+}
+
+img{
+    max-width: 290px;
+}
+
+};

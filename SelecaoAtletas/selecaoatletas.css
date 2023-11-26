@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family: Agbalumo;
+    font-size: 70px;
+  
+}
+
+img {
+    max-width: 290px;
+    margin-bottom: 70px;
+}
+
+button {
+    font-family: Agbalumo;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    margin: auto;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+    width: 220px;
+}
+
+
+#voltar {   
+    
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+    font-family: Agbalumo;
+    text-align: center;
+    position: fixed;
+    bottom: 0; /* Position at the top */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 2;
+
+}
+
+
+
+/* Estilos para telas menores ou iguais a 768 pixels */
+
+#elencoSelect {
+    font-family: 'Agbalumo';
+    padding: 10px;
+    width: 100%; /* Largura 100% */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+  }
+  
+  /* Estilizar as opções do select */
+  #elencoSelect option {
+    font-family: 'Agbalumo';
+    background-color: #fff;
+    color: #000;
+  }
