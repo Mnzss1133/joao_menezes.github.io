@@ -34,7 +34,7 @@ button {
     font-family: Agbalumo;
     text-align: center;
     position: fixed;
-    bottom: 0; /* Position at the top */
+    top: 0; /* Position at the top */
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
