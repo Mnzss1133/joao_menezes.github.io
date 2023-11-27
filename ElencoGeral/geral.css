@@ -57,6 +57,7 @@ button {
 @media screen and (max-width:768px){
     #grid-container{
         grid-template-columns: auto ;
+        margin:auto;
     }
   }
 
