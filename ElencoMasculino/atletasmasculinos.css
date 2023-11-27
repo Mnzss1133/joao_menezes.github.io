@@ -58,6 +58,7 @@ button {
     #grid-container{
         grid-template-columns: auto ;
         margin:auto;
+        color:rgb(0,0,0);
     }
   }
 
