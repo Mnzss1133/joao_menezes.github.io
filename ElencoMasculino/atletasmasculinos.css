@@ -46,6 +46,7 @@ button {
 #Detalhes {
     font-size: 15px;
     background-color: rgb(81, 118, 226);
+    color: black;
     display: flex;
     margin: auto;
     align-items: center;
