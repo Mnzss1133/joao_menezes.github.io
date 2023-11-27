@@ -30,6 +30,7 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
+    color:rgb(0,0,0);
     padding: 10px;
     width: 80px;
 }
@@ -39,7 +40,7 @@ button {
     top:0;
     left: 0;
     right: 100;
-    color:black;
+    
     text-align: center;
 }
 

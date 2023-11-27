@@ -30,6 +30,7 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
+    color:rgb(0,0,0);
     padding: 10px;
     width: 80px;
 }
@@ -50,6 +51,7 @@ button {
     margin: auto;
     align-items: center;
     justify-content: center;
+    color:rgb(0,0,0);
     height: 50px;
     width: 220px;
 }
@@ -58,7 +60,7 @@ button {
     #grid-container{
         grid-template-columns: auto ;
         margin:auto;
-         color:rgb(0,0,0);
+        color:rgb(0,0,0);
     }
   }
 

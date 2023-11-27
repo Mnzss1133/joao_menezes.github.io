@@ -52,6 +52,7 @@ button {
     width: 100%; /* Largura 100% */
     border: 1px solid #ccc;
     border-radius: 5px;
+    color:black;
     margin-bottom: 10px;
     font-size: 16px;
     box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
