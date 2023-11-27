@@ -81,8 +81,8 @@ body{
     margin: auto; 
     flex-direction: column; 
     
-    width: 70vw; 
-    min-width: 800px;
+    width: 50vw; 
+    min-width: 300px;
 }
 #titulo{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
